@@ -107,7 +107,7 @@ def gen_pattern(chars):
         sub = '.'.join(sub)
         str_list[i] = sub.center(4*len(chars)-3, '.') + '\n'
         str_list[-i-1] = sub.center(4*len(chars)-3, '.') + '\n'
-    return ''.join(str_list)
+    print(''.join(str_list))
         
 
 
